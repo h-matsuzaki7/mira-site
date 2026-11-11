@@ -1,0 +1,61 @@
+body{
+margin:0;
+font-family:"Yu Gothic",sans-serif;
+line-height:1.8;
+color:#333;
+}
+
+.hero{
+background:linear-gradient(135deg,#3F62B5,#57B66A);
+color:white;
+text-align:center;
+padding:80px 20px;
+}
+
+.hero img{
+max-width:350px;
+width:90%;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:70px 20px;
+}
+
+h2{
+color:#3F62B5;
+text-align:center;
+margin-bottom:40px;
+}
+
+.full{
+width:100%;
+border-radius:8px;
+box-shadow:0 10px 20px rgba(0,0,0,.1);
+}
+
+.contact{
+background:#233547;
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+footer{
+padding:20px;
+text-align:center;
+background:#f2f2f2;
+}
+
+@media(max-width:768px){
+
+.hero{
+padding:50px 15px;
+}
+
+h1{
+font-size:28px;
+}
+
+}
