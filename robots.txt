@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-# TODO: 本番ドメイン確定後に差し替え
-Sitemap: https://mira-site-9bs.pages.dev/sitemap.xml
