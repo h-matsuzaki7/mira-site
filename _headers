@@ -1,0 +1,15 @@
+# Cloudflare Pages ヘッダー設定
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
+  Strict-Transport-Security: max-age=31536000
+
+# HTMLは毎回最新を確認
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# 画像・CSS・JSは1週間キャッシュ（差し替え時はファイル名を変えるか、Cloudflareでキャッシュ削除）
+/assets/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
