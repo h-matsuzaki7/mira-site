@@ -15,8 +15,6 @@ assets/img/           ロゴ（WebP）、OGP画像
 ```
 
 ## 公開前に差し替えるもの（`TODO` で検索）
-- 本番ドメイン：canonical / og:url / og:image / JSON-LD / robots.txt / sitemap.xml
-- 役員の肩書き（掲載了承と最新情報の確認後）
 
 ## 画像を差し替えるとき
 `/assets/*` は1週間キャッシュされます。同じファイル名で差し替える場合は、Cloudflare のキャッシュを削除するか、ファイル名を変えてください。
